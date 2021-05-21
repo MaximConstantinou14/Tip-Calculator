@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image:linear-gradient(to right,#6184D8, #50C5B7) ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    cursor:default;
+}
+
+.welcome{
+    font-size: 3rem;
+}
+
+.exp{
+    font-size: 1.5rem;
+}
+
+.tip-calculator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #76D989;
+    height: 26.4rem;
+    width: 25rem;
+    border-radius: 10px;
+    padding: 4rem 2rem;
+}
+
+.title{
+    width: 25rem;
+    height: 3rem;
+    background-color: #5A5FA5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: -4rem;
+    z-index: 2;
+}
+
+input{
+    padding: 1rem 4rem;
+}
+
+select{
+    padding: 1rem 3.95rem;
+}
+
+.calculate{
+    padding: 1rem 10.55rem;
+    margin-bottom: -4rem;
+    background-color:#5A5FA5 ;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: 'Montserrat',sans-serif;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tip-wrap{
+    margin-top:1rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+}
